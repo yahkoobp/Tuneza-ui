@@ -13,7 +13,7 @@ const AppNavigator = () => {
   return <Tab.Navigator>
     <Tab.Screen name='AudioList' component={AudioList} options={{
         tabBarIcon: (color, size) =>{
-            return <Ionicons name="headset" size={size} color={color} />
+            return <Ionicons name="headset" size={24} color={color} />
         }
     }}/>
     <Tab.Screen name='Player' component={Player} options={{

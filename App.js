@@ -6,26 +6,15 @@ import AudioListItem from "./app/components/AudioListItem"
 import { Text, View ,StyleSheet} from 'react-native'
 
 export default function App() {
-  // return( 
-  //   <AudioProvider>
-  // <NavigationContainer>
-  //    <AppNavigator/>
-  // </NavigationContainer>
-  // </AudioProvider>
-  // )
-
-  return(
-    <View style={{marginTop:50}}>
-    <AudioListItem/>
-    <AudioListItem/>
-    <AudioListItem/>
-    <AudioListItem/>
-    <AudioListItem/>
-    <AudioListItem/>
-    <AudioListItem/>
-    
-    </View>
+  return( 
+    <AudioProvider>
+  <NavigationContainer>
+     <AppNavigator/>
+  </NavigationContainer>
+  </AudioProvider>
   )
+
+  
 }
 
 
